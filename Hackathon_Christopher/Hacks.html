@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Spam Pop-up</title>
+        <link rel="stylesheet" href="class.css">
+    </head>
+    <body>
+        <div class="container">
+            <img id="arrows" src="arrows.gif" alt="">
+            <img id= "life" src="Iphone.jpg"> <br>
+            <h1 id="raffle">You have been randomly selected!!!</h1>
+            <p1 id="contest">You have been chosen to win a new IPhone 13 with an Unlimited Data Plan!! All we need is a confirmation of your IP adress and consent to continue with the selection.</p>
+            <button type="submit" class="btn" onclick="openpopup()"> Continue with the raffle </button>
+            
+        <div class= "popup" id="popup"> 
+        <img src="lock.png">
+        <h2>YOU HAVE 30 MINUTES TO RESPOND!</h2>
+        <p id="text">You personal information has been recorded and your computer has been locked. Issue 500 dollars to the paypal account Boss-Simons for your browser to be restored.</p>
+        <button type="button" onclick="closepopup();openpopupn()">OK</button>
+        </div>
+        <div class= "popupn" id="popupn"> 
+            <img src="grats.jpg">
+            <h2> This is what's called a Ransomware Attack.</h2>
+            <p id="txt">If a site offers you something too good to be true, it's most likely a scam. Be wary of downloading files or giving your information to sites that are not 100% trust-worthy. To ensure your safety online, make sure you have a trust-worthy anti-virus software and regularly scan your computer.</p>
+            <a href="/main_page.html">
+            <button type="button" onclick="closepopupn()">BACK TO HOME</button>
+        </a>
+            </div>
+    </div>
+<script>
+    let popup= document.getElementById("popup");
+    function openpopup(){
+        popup.classList.add("open-popup");
+    }
+    function closepopup(){
+        popup.classList.remove("open-popup");
+    }
+    let popupn= document.getElementById("popupn");
+    function openpopupn(){
+        popupn.classList.add("open-popupn");
+    }
+    function closepopupn(){
+        popupn.classList.remove("open-popupn");
+    }
+</script>
+
+    </body>
+</html>
+
+
+
+
