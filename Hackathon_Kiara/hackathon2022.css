@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+  }
+
+body{
+    width: 130%;
+    height: 100%;
+}
+img{
+    opacity: 1;
+    width: 81.6%;
+    position: relative;
+    z-index: 1;
+}
+.img2{
+    height: 98%;
+    opacity: 1.0;
+    width: 3.0%;
+    position: absolute;
+    right: 0.2;
+    top:0;
+    margin-top: 10px;
+    z-index: 8;
+}
+.img3{
+    height:50%;
+    width:40%;
+    position: relative;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: 30%; 
+
+
+
+}
+h2{
+    z-index: 10; 
+    color: red; 
+    position: absolute;
+    margin-left: 42%;
+    font-size: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dropbtn {
+    border-radius: 25px;
+    width: 350px;
+    background-color:grey;
+    color: white;
+    padding: 0px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 230px;
+    margin-left: 110px;
+    margin-bottom: 100px;
+    top: 0;
+    position: absolute;
+    z-index: 7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+    z-index: 8;
+  }
+  .dropdown {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+    margin-bottom: 200px;
+  }
+  .dropdown-content {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 260px;
+    width: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 255px;
+    margin-left: 110px;
+    margin-bottom: 100px;
+    top: 0;
+    position: absolute;
+    z-index: 6;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .dropdown-content a:hover {background-color: #ddd}
+  .show {display:block;}
+
+  .banner1{
+      width:106%;
+      height:300%;
+      position: absolute;
+      top: 0;
+      margin-top: 250px;
+      background-color: grey;
+
+  }
+  #download{
+    border-radius: 25px;
+    margin-top: 190px;
+    background-color: grey;
+    padding: 17px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    z-index: 3;
+
+}
+.popup{
+    width:400px;
+    background: #fff;
+    border-radius: 6px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(1);
+    text-align:center;
+    padding: 0 30px 30px;
+    color: rgb(200, 10, 10);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    z-index: 60;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+#text{
+    font-weight: 200;
+    font-size: 20px;
+}
+#txt{
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+.popup img{
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 100%;
+    height: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+.popup h2{
+    font-size: 15px;
+    font-weight: 500;
+    margin:30px;
+
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+
+}
