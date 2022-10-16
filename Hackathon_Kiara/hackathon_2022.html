@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hackathon2022.css">
+    <title>Virus Module</title>
+</head>
+<body>
+    
+    <img src="hackathon2022image4.jpg" alt="HTML5 Icon" width="10" height="250">
+    <img class="img3" src="hackathon2022image5.webp" alt="HTML5 Icon" width="0" height="400">
+    <h2>THE TOP RATED FREE MOVIE DOWNLOADER!<br>&#60&#60&#60HIGH-QUALITY GUARANTEED!</h2>
+    <div class="banner1"></div>
+    <div class= "popup" id="popup"> 
+        <img src="2022 hackathon .jpg">
+        <h4> That is how easy it is to download a virus!</h2>
+        <p id="text">To protect against virus attacks, utilize a trustworthy anti-virus software and avoid clicking on pop-up ads or suspicious links. You should also scan documents and emails before opening them. </p>
+        <a href="/index.html">
+        <button type="button" onclick="closepopup()">BACK TO HOME</button>
+      </a>
+        </div>
+  
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">STREAM FREE NOW 𝄘 </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a download href="virus.txt" onclick="openpopup()">Up</a>
+          <a download href="virus.txt "onclick="openpopup()">Love Jones</a>
+          <a download href="virus.txt" onclick="openpopup()">Poetic Justice</a>
+          <a download href="virus.txt" onclick="openpopup()">Step Up</a>
+          <a download href="virus.txt" onclick="openpopup()">Think Like A Man</a>
+          <a download href="virus.txt" onclick="openpopup()">Doctor Strange</a>
+          <a download href="virus.txt" onclick="openpopup()">DeadPool</a>
+          <a download href="virus.txt" onclick="openpopup()">Deadpool 2</a>
+          <a download href="virus.txt" onclick="openpopup()">Fast & Furious</a>
+          <a download href="virus.txt" onclick="openpopup()">Friday</a>
+          <a download href="virus.txt" onclick="openpopup()">Black Panther</a>
+          <a download href="virus.txt" onclick="openpopup()">Matilda</a>
+          <a download href="virus.txt" onclick="openpopup()">Fantastic Beast</a>
+          <a download href="virus.txt" onclick="openpopup()">Frozen</a>
+          <a download href="virus.txt" onclick="openpopup()">Willow</a>
+    
+        </div>
+      </div>
+      <script>
+          /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var y;
+    for (y = 0; y < dropdowns.length; y++) {
+      var openDropdown = dropdowns[y];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+      </script>
+      <script>
+        let popup= document.getElementById("popup");
+        function openpopup(){
+            popup.classList.add("open-popup");
+        }
+        function closepopup(){
+            popup.classList.remove("open-popup");
+        }
+</script>
